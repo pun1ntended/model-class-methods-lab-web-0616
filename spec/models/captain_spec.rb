@@ -1,3 +1,14 @@
+# == Schema Information
+#
+# Table name: captains
+#
+#  id         :integer          not null, primary key
+#  name       :string
+#  admiral    :boolean
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
 require 'spec_helper'
 
 describe Captain do
